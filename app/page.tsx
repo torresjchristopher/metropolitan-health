@@ -62,24 +62,35 @@ export default function Home(){
       <div className="company-grid">
         <article className="yukora"><div><span>01</span><b>Y</b></div><h3>Yukora</h3><p>The human and creative intelligence layer—shaping how ideas, systems, and experiences are designed around people.</p><em>HUMAN SYSTEMS</em></article>
         <article className="omega"><div><span>02</span><b>Ω</b></div><h3>Omega</h3><p>The historical intelligence layer—finding patterns across recorded history to improve prediction and strategy.</p><em>HISTORICAL SYSTEMS</em></article>
-        <article className="eunoe"><div><span>03</span><b>E</b></div><h3>Eunoe</h3><p>The simulation layer—preserving immutable rules while generating adaptive worlds, scenarios, and experiences.</p><em>GENERATIVE SYSTEMS</em></article>
+        <article className="eunoe"><div><span>03</span><b>E</b></div><h3>Eunoe</h3><p>A joyful future for games—restoring the worlds people loved as children and creating endless new adventures without losing the characters, physics, or mechanics that made them matter.</p><em>PLAY · PRESERVATION · GENERATION</em></article>
         <article className="metro"><div><span>04</span><b>M</b></div><h3>Metropolitan</h3><p>The integration layer—acquiring medical capability and directing the combined system toward human disease.</p><em>LIFE SYSTEMS</em></article>
       </div>
     </section>
 
+    <section className="immutable">
+      <p className="tag">07 / A shared philosophy</p>
+      <div className="immutable-title"><h2>Preserve what is true.<br/><em>Correct what causes harm.</em></h2><p>Eunoe makes this principle visible in its lightest form: a childhood game can feel magically new—restored graphics, richer worlds, endless stories—while its essential identity remains untouched. The same idea becomes consequential in medicine.</p></div>
+      <div className="immutable-grid">
+        <div><span>IN PLAY</span><h3>The game remains itself.</h3><p>Characters, physics, and the mechanics of mastery provide the stable truth. Generative systems expand expression around them.</p></div>
+        <i>↔</i>
+        <div><span>IN LIFE</span><h3>The body remains itself.</h3><p>Molecular understanding should help a biological process return to a non-harmful path—not replace the integrity of the living system.</p></div>
+      </div>
+      <blockquote>Understand the process faithfully enough to straighten its path without corrupting the system itself.</blockquote>
+    </section>
+
     <section className="convergence">
-      <p className="tag">07 / Convergence</p><h2>History teaches.<br/>Simulation tests.<br/>Human judgment directs.<br/><em>Medicine advances.</em></h2>
+      <p className="tag">08 / Convergence</p><h2>History teaches.<br/>Simulation tests.<br/>Human judgment directs.<br/><em>Medicine advances.</em></h2>
       <div className="converge-map"><div>YUKORA<span>Human context</span></div><i>×</i><div>OMEGA<span>Historical pattern</span></div><i>×</i><div>EUNOE<span>Generative simulation</span></div><i>=</i><div>METROPOLITAN<span>Predictive medicine</span></div></div>
     </section>
 
     <section className="talent">
-      <div><p className="tag">08 / Talent mandate</p><h2>Companies provide capability.<br/>People create breakthroughs.</h2></div>
+      <div><p className="tag">09 / Talent mandate</p><h2>Companies provide capability.<br/>People create breakthroughs.</h2></div>
       <div className="talent-list">
         {["Molecular biologists","Physician-scientists","Computational chemists","Machine-learning researchers","Clinical operators","Systems engineers"].map((x,i)=><div key={x}><span>0{i+1}</span><h3>{x}</h3><p>Integrated into multidisciplinary teams with long horizons, shared infrastructure, and direct paths from discovery to application.</p></div>)}
       </div>
     </section>
 
-    <section className="principles"><p className="tag">09 / Operating principles</p>
+    <section className="principles"><p className="tag">10 / Operating principles</p>
       <div><span>01</span><h3>Mission before momentum.</h3><p>Acquire only what materially advances the path toward predictive, molecular medicine.</p></div>
       <div><span>02</span><h3>Evidence before certainty.</h3><p>Preserve provenance, uncertainty, competing explanations, and clinical accountability.</p></div>
       <div><span>03</span><h3>Integration without erasure.</h3><p>Protect the identity and expertise of acquired teams while connecting their capabilities.</p></div>
