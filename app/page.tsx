@@ -97,6 +97,23 @@ export default function Home(){
       <div><span>04</span><h3>Decades, not quarters.</h3><p>Build for the timescale of biology, trust, scientific proof, and durable human benefit.</p></div>
     </section>
 
+    <section className="manifesto">
+      <div className="manifesto-head">
+        <p className="tag">11 / The Metropolitan manifesto</p>
+        <h2>Different companies.<br/>Independent purposes.<br/><em>A shared respect for truth.</em></h2>
+        <p>Metropolitan is united by doctrine, not by forcing every company into one industry. We believe complex systems can be improved only after they are understood—and only when the intervention preserves what makes the system itself.</p>
+      </div>
+      <div className="articles">
+        <article><span>I</span><h3>We pursue a simple, difficult goal.</h3><p>Understand why processes harm the human body, then help straighten their path with molecular fidelity, evidence, patience, and care.</p></article>
+        <article><span>II</span><h3>Our companies remain their own.</h3><p>Yukora, Omega, and Eunoe are not health companies. Each has its own mission, customers, culture, community, incentives, and definition of success.</p></article>
+        <article><span>III</span><h3>No company must justify itself through medicine.</h3><p>Eunoe may exist to restore a childhood game beautifully. Omega may answer a strategic question. Yukora may reveal a hidden path. Independent value is sufficient.</p></article>
+        <article><span>IV</span><h3>Methods may travel. Identity does not.</h3><p>Metropolitan may learn from navigation, historical inference, constrained generation, or simulation. It may never appropriate a subsidiary’s purpose, community, or creative life.</p></article>
+        <article><span>V</span><h3>Integration must not become erasure.</h3><p>We share capital, infrastructure, general principles, and selected discoveries deliberately. We preserve the distinct people and conditions from which valuable work emerges.</p></article>
+        <article><span>VI</span><h3>We intervene to preserve, not dominate.</h3><p>Whether the system is a game, a historical model, a hidden grid, or a living body: preserve its truth, understand its process, and correct the path that causes harm.</p></article>
+      </div>
+      <div className="pledge"><span>OUR DOCTRINE</span><strong>Preserve the system.<br/>Understand the process.<br/>Correct the harmful path.</strong></div>
+    </section>
+
     <section className="closing" id="contact"><div className="closing-cell"><i/><i/><b>M</b></div><p className="tag">Metropolitan / 2026—2036</p><h2>The body is complex.<br/><em>The mission is clear.</em></h2><p>We are building the company capable of pursuing medicine’s oldest questions with the intelligence, patience, and scale they deserve.</p><a className="button red" href="mailto:mission@metropolitan.health">Join the mission ↗</a></section>
     <footer><a className="brand" href="#top"><span>M</span>METROPOLITAN</a><p>Human systems · Historical systems · Generative systems · Life systems</p><span>© 2026</span></footer>
   </main>
