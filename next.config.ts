@@ -1,0 +1,1 @@
+import type {NextConfig} from "next";const pages=process.env.GITHUB_PAGES==="true";const config:NextConfig=pages?{output:"export",basePath:"/metropolitan-health",assetPrefix:"/metropolitan-health/",trailingSlash:true,images:{unoptimized:true},typescript:{ignoreBuildErrors:true}}:{};export default config;
