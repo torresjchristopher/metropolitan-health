@@ -35,14 +35,10 @@ export default function Home(){
       </div>
     </section>
 
-    <section className="thesis digital-thesis">
-      <div className="thesis-copy"><p className="tag">03 / Investment thesis</p><h2>Build the model<br/>before treating the outcome.</h2><p>Metropolitan’s central long-term program is the Digital Human Twin: a continuously improving, patient-specific computational model designed to represent biological state, forecast harmful change, and ultimately test plausible interventions before they reach the body. Acquisitions, research programs, and technical infrastructure are evaluated by one question: do they make the twin more complete, more accurate, or more clinically useful?</p></div>
-      <div className="twin-thesis-map">
-        <div className="twin-core"><span>FLAGSHIP PROGRAM</span><b>Digital Human Twin</b><p>A longitudinal computational representation of the individual—integrating molecular, clinical, imaging, physiological, behavioral, environmental, and treatment-response data into one evolving model.</p></div>
-        <div className="twin-flow"><span>OBSERVE</span><i>→</i><span>MODEL</span><i>→</i><span>SIMULATE</span><i>→</i><span>PREDICT</span><i>→</i><span>INTERVENE</span><i>→</i><span>LEARN</span></div>
-      </div>
+    <section className="thesis">
+      <div className="thesis-copy"><p className="tag">03 / Investment thesis</p><h2>Acquire the capabilities.<br/>Unify the intelligence.</h2><p>Over ten years, Metropolitan will selectively acquire medical companies whose technology, evidence, talent, or access closes a critical gap in the path from molecular observation to predictive intervention.</p></div>
       <div className="targets">
-        {["Molecular diagnostics","Longitudinal health data","AI-native drug discovery","Precision therapeutics","Clinical research networks","Computational biology","Medical imaging","Specialist talent platforms"].map((x,i)=><div key={x}><span>0{i+1}</span><b>{x}</b><em>INPUT TO THE TWIN</em></div>)}
+        {["Molecular diagnostics","Longitudinal health data","AI-native drug discovery","Precision therapeutics","Clinical research networks","Computational biology","Medical imaging","Specialist talent platforms"].map((x,i)=><div key={x}><span>0{i+1}</span><b>{x}</b><em>ACQUISITION TERRITORY</em></div>)}
       </div>
     </section>
 
@@ -62,18 +58,21 @@ export default function Home(){
       </div>
     </section>
 
-    <section className="moonshots" id="moonshots">
+    <section className="moonshots longevity-system" id="moonshots">
       <div className="moonshot-head">
-        <p className="tag">25-YEAR / Research system</p>
-        <h2>One flagship model.<br/><em>Five institutes that make it possible.</em></h2>
-        <p className="moonshot-intro">The institutes are not five unrelated moonshots. Each develops a critical layer of knowledge, data, validation, or intervention that strengthens the Digital Human Twin. The twin becomes the shared computational substrate through which discoveries in aging, cancer, brain disease, and clinical intelligence can compound across the same individual model.</p>
+        <p className="tag">25-YEAR / Research institutions</p>
+        <h2>Health is the objective.<br/><em>Longevity is the measure.</em></h2>
+        <p className="moonshot-intro">Metropolitan’s research institutions are built around a simple long-horizon premise: the highest form of medicine is not increasingly expensive treatment after failure, but increasingly precise understanding before it. The flagship Institute of Health Longevity studies why healthy systems decline—and how more of that decline can be prevented, delayed, or corrected.</p>
       </div>
-      <div className="institute-grid twin-institutes">
-        <article className="flagship-institute"><span>CORE</span><h3>Institute for Digital Human Modeling</h3><p>Lead the flagship program: build progressively richer patient-specific computational models capable of integrating biological state, forecasting trajectories, testing hypotheses, and eventually simulating interventions before they reach the body.</p><em>DIGITAL TWIN · SYSTEM INTEGRATION</em></article>
-        <article><span>01</span><h3>Institute of Health Longevity</h3><p>Define and model the mechanisms of biological aging so the twin can distinguish chronological time from individual biological decline and test strategies for preserving healthy function.</p><em>AGING BIOLOGY · HEALTHSPAN</em></article>
-        <article><span>02</span><h3>Institute for Computational Oncology</h3><p>Develop tumor-state models, early detection systems, and treatment-response simulations that allow oncology to become one of the twin’s deepest disease-specific validation environments.</p><em>CANCER · PRECISION THERAPY</em></article>
-        <article><span>03</span><h3>Institute for Brain Intelligence</h3><p>Integrate neurological, molecular, imaging, behavioral, and longitudinal signals so the twin can represent brain health and neurodegenerative trajectories with increasing fidelity.</p><em>NEURODEGENERATION · BRAIN SYSTEMS</em></article>
-        <article><span>04</span><h3>Institute for Autonomous Clinical Intelligence</h3><p>Translate twin outputs into transparent, clinician-directed recommendations while preserving human judgment, accountability, evidence review, and safety.</p><em>CLINICAL AI · HUMAN OVERSIGHT</em></article>
+      <div className="longevity-feature">
+        <article className="longevity-flagship"><span>FLAGSHIP INSTITUTE</span><h3>Institute of<br/>Health Longevity</h3><p>Study the mechanisms that transform healthy biology into disease, identify the pathways that drive biological aging and loss of resilience, and build interventions aimed at preserving healthy function across a longer human life.</p><em>AGING BIOLOGY · HEALTHSPAN · PREVENTION</em></article>
+        <div className="longevity-statement"><span>THE PUBLIC MISSION</span><strong>Help people remain healthy<br/>before they become patients.</strong><p>Over generations, Metropolitan intends to make prevention, prediction, and biological correction the center of healthcare—not an accessory to treatment.</p></div>
+      </div>
+      <div className="supporting-institutes">
+        <article><span>01</span><h3>Computational Oncology</h3><p>Earlier detection, tumor-state modeling, and increasingly precise intervention.</p></article>
+        <article><span>02</span><h3>Brain Intelligence</h3><p>Earlier understanding of neurodegeneration, cognition, and psychiatric disease.</p></article>
+        <article><span>03</span><h3>Digital Human Modeling</h3><p>Patient-specific computational models that connect biological state across time.</p></article>
+        <article><span>04</span><h3>Clinical Intelligence</h3><p>Clinician-directed AI that turns multimodal evidence into accountable decisions.</p></article>
       </div>
     </section>
 
@@ -99,29 +98,33 @@ export default function Home(){
     </section>
 
     <section className="frontier-research" id="research-horizon">
-      <div className="frontier-head">
-        <p className="tag">25-YEAR / Research horizon</p>
-        <div><h2>Model the whole person.<br/><em>Reduce the biology of decline.</em></h2><p>Aging is one of the strongest risk factors for many chronic diseases. Metropolitan’s long-horizon research asks whether increasingly complete computational models of an individual can help identify, simulate, and eventually redirect the molecular processes that accumulate into disease and functional decline.</p></div>
+      <div className="frontier-head century-head">
+        <p className="tag">100-YEAR / Strategic horizon</p>
+        <div><h2>The next century of medicine<br/><em>begins before disease.</em></h2><p>Metropolitan is being built for a future in which a trusted health institution succeeds by keeping people well for longer—not by maximizing the cost, frequency, or complexity of treatment after disease has already taken hold.</p></div>
       </div>
-      <div className="research-tracks">
-        <article className="research-track flagship-track">
-          <span>01 / DIGITAL HUMAN</span>
-          <h3>A living computational twin.</h3>
-          <p>The flagship objective is a patient-specific digital model that continuously integrates molecular measurements, imaging, physiology, clinical history, environment, behavior, and treatment response. Rather than treating each disease as an isolated problem, the twin is designed to preserve a unified representation of the individual and test how interventions in one system may affect the rest of the body.</p>
+      <div className="century-principles">
+        <article><span>01</span><h3>Trusted by design.</h3><p>Align institutional success with healthier lives, measurable prevention, transparent evidence, and durable public trust.</p></article>
+        <article><span>02</span><h3>Earlier than disease.</h3><p>Move intervention upstream—from symptoms and irreversible damage toward molecular trajectory, resilience, and prevention.</p></article>
+        <article><span>03</span><h3>Solve the harmful path.</h3><p>Reduce dependence on repeated expensive treatment by understanding why biological systems fail and correcting those processes at their source.</p></article>
+      </div>
+      <div className="research-tracks refined-tracks">
+        <article className="research-track longevity-track">
+          <span>01 / HEALTH LONGEVITY</span>
+          <h3>Preserve healthy function.</h3>
+          <p>Aging is one of the strongest risk factors for many chronic diseases. Metropolitan’s long-term research focuses on the mechanisms that reduce biological resilience over time—and on interventions that can preserve, stabilize, or restore healthy function where science permits.</p>
+          <ul><li>Cellular senescence and repair</li><li>Inflammatory and immune regulation</li><li>Epigenetic and metabolic change</li><li>Tissue resilience and regeneration</li></ul>
+        </article>
+        <article className="research-track infrastructure-track">
+          <span>02 / UNDERLYING INFRASTRUCTURE</span>
+          <h3>Model the individual.</h3>
+          <p>Digital human modeling supports this work beneath the surface: a continuously updated, patient-specific computational representation integrating molecular measurements, imaging, physiology, clinical history, environment, behavior, and treatment response.</p>
           <ul><li>Longitudinal multimodal data</li><li>Mechanistic + learned biological models</li><li>Counterfactual treatment simulation</li><li>Continuous patient-specific updating</li></ul>
         </article>
-        <article className="research-track">
-          <span>02 / BIOLOGICAL AGE</span>
-          <h3>Slow the processes that make disease easier.</h3>
-          <p>Rather than treating age-associated conditions only after they appear, the research goal is to identify measurable drivers of biological aging and test whether selected processes can be slowed, stabilized, or—where science ultimately permits—partially reversed while preserving normal physiology.</p>
-          <ul><li>Cellular senescence and repair</li><li>Inflammatory and immune dysregulation</li><li>Epigenetic and metabolic change</li><li>Tissue resilience and regeneration</li></ul>
-        </article>
       </div>
-      <div className="north-star">
+      <div className="north-star century-star">
         <span>NORTH STAR</span>
-        <div><strong>A body that no longer<br/><em>turns against itself.</em></strong><p>The ultimate ambition is broader than any single disease: understand harmful biological processes deeply enough that cancerous growth, destructive immune activity, neurodegeneration, pathological inflammation, and other forms of internal biological damage can be predicted early and redirected toward stable, non-harmful function whenever medically possible.</p></div>
+        <div><strong>A body that no longer<br/><em>turns against itself.</em></strong><p>Whether through cancerous growth, destructive immune activity, neurodegeneration, pathological inflammation, metabolic dysfunction, or age-related decline, Metropolitan’s deepest objective is to understand the transition from healthy function to harmful biology well enough to prevent it, interrupt it, or redirect it.</p></div>
       </div>
-      <p className="research-note">This is a long-term scientific research agenda, not a claim of present clinical capability. Progress depends on experimental validation, clinical evidence, safety, regulatory review, and disciplined human oversight.</p>
     </section>
 
     <section className="convergence">
@@ -160,7 +163,7 @@ export default function Home(){
       <div className="pledge"><span>OUR DOCTRINE</span><strong>Preserve the system.<br/>Understand the process.<br/>Correct the harmful path.</strong></div>
     </section>
 
-    <section className="closing" id="contact"><div className="closing-cell"><i/><i/><b>M</b></div><p className="tag">Metropolitan / 2026—2036</p><h2>The body is complex.<br/><em>The mission is clear.</em></h2><p>We are building the company capable of pursuing medicine’s oldest questions with the intelligence, patience, and scale they deserve.</p><a className="button red" href="mailto:mission@metropolitan.health">Join the mission ↗</a></section>
+    <section className="closing" id="contact"><div className="closing-cell"><i/><i/><b>M</b></div><p className="tag">Metropolitan / Long-horizon institution</p><h2>The body is complex.<br/><em>The mission is clear.</em></h2><p>Build a health institution trusted for generations because its highest measure of success is not how much disease it treats—but how much disease it helps humanity avoid.</p><a className="button red" href="mailto:mission@metropolitan.health">Join the mission ↗</a></section>
     <footer><a className="brand" href="#top"><span>M</span>METROPOLITAN</a><p>Human systems · Historical systems · Generative systems · Life systems</p><span>© 2026</span></footer>
   </main>
 }
