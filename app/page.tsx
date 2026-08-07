@@ -35,10 +35,14 @@ export default function Home(){
       </div>
     </section>
 
-    <section className="thesis">
-      <div className="thesis-copy"><p className="tag">03 / Investment thesis</p><h2>Acquire the capabilities.<br/>Unify the intelligence.</h2><p>Over ten years, Metropolitan will selectively acquire medical companies whose technology, evidence, talent, or access closes a critical gap in the path from molecular observation to predictive intervention.</p></div>
+    <section className="thesis digital-thesis">
+      <div className="thesis-copy"><p className="tag">03 / Investment thesis</p><h2>Build the model<br/>before treating the outcome.</h2><p>Metropolitan’s central long-term program is the Digital Human Twin: a continuously improving, patient-specific computational model designed to represent biological state, forecast harmful change, and ultimately test plausible interventions before they reach the body. Acquisitions, research programs, and technical infrastructure are evaluated by one question: do they make the twin more complete, more accurate, or more clinically useful?</p></div>
+      <div className="twin-thesis-map">
+        <div className="twin-core"><span>FLAGSHIP PROGRAM</span><b>Digital Human Twin</b><p>A longitudinal computational representation of the individual—integrating molecular, clinical, imaging, physiological, behavioral, environmental, and treatment-response data into one evolving model.</p></div>
+        <div className="twin-flow"><span>OBSERVE</span><i>→</i><span>MODEL</span><i>→</i><span>SIMULATE</span><i>→</i><span>PREDICT</span><i>→</i><span>INTERVENE</span><i>→</i><span>LEARN</span></div>
+      </div>
       <div className="targets">
-        {["Molecular diagnostics","Longitudinal health data","AI-native drug discovery","Precision therapeutics","Clinical research networks","Computational biology","Medical imaging","Specialist talent platforms"].map((x,i)=><div key={x}><span>0{i+1}</span><b>{x}</b><em>ACQUISITION TERRITORY</em></div>)}
+        {["Molecular diagnostics","Longitudinal health data","AI-native drug discovery","Precision therapeutics","Clinical research networks","Computational biology","Medical imaging","Specialist talent platforms"].map((x,i)=><div key={x}><span>0{i+1}</span><b>{x}</b><em>INPUT TO THE TWIN</em></div>)}
       </div>
     </section>
 
@@ -60,16 +64,16 @@ export default function Home(){
 
     <section className="moonshots" id="moonshots">
       <div className="moonshot-head">
-        <p className="tag">25-YEAR / Moonshot portfolio</p>
-        <h2>Five institutes.<br/><em>Five problems worth a generation.</em></h2>
-        <p className="moonshot-intro">Beyond the ten-year operating horizon, Metropolitan’s research ambition is to organize durable scientific capability around problems that have resisted conventional medicine for decades—and where artificial intelligence, molecular measurement, simulation, and clinical science can compound together.</p>
+        <p className="tag">25-YEAR / Research system</p>
+        <h2>One flagship model.<br/><em>Five institutes that make it possible.</em></h2>
+        <p className="moonshot-intro">The institutes are not five unrelated moonshots. Each develops a critical layer of knowledge, data, validation, or intervention that strengthens the Digital Human Twin. The twin becomes the shared computational substrate through which discoveries in aging, cancer, brain disease, and clinical intelligence can compound across the same individual model.</p>
       </div>
-      <div className="institute-grid">
-        <article><span>01</span><h3>Institute for Healthy Longevity</h3><p>Study the mechanisms that drive biological aging, identify measurable pathways of decline, and pursue interventions that extend healthy function rather than merely prolonging life.</p><em>AGING BIOLOGY · HEALTHSPAN</em></article>
-        <article><span>02</span><h3>Institute for Computational Oncology</h3><p>Develop AI-guided systems for earlier cancer detection, mechanistic tumor modeling, treatment selection, and increasingly precise intervention.</p><em>CANCER · PRECISION THERAPY</em></article>
-        <article><span>03</span><h3>Institute for Brain Intelligence</h3><p>Unify neurological, molecular, imaging, behavioral, and longitudinal signals to pursue earlier understanding of Alzheimer’s, Parkinson’s, ALS, and psychiatric disease.</p><em>NEURODEGENERATION · BRAIN SYSTEMS</em></article>
-        <article><span>04</span><h3>Institute for Digital Human Modeling</h3><p>Build progressively richer patient-specific computational models capable of testing hypotheses, forecasting trajectories, and eventually simulating interventions before they reach the body.</p><em>DIGITAL TWINS · PREDICTIVE SIMULATION</em></article>
-        <article><span>05</span><h3>Institute for Autonomous Clinical Intelligence</h3><p>Develop clinician-directed AI systems that integrate multimodal evidence into transparent, evidence-based recommendations while preserving human judgment, accountability, and oversight.</p><em>CLINICAL AI · HUMAN OVERSIGHT</em></article>
+      <div className="institute-grid twin-institutes">
+        <article className="flagship-institute"><span>CORE</span><h3>Institute for Digital Human Modeling</h3><p>Lead the flagship program: build progressively richer patient-specific computational models capable of integrating biological state, forecasting trajectories, testing hypotheses, and eventually simulating interventions before they reach the body.</p><em>DIGITAL TWIN · SYSTEM INTEGRATION</em></article>
+        <article><span>01</span><h3>Institute for Healthy Longevity</h3><p>Define and model the mechanisms of biological aging so the twin can distinguish chronological time from individual biological decline and test strategies for preserving healthy function.</p><em>AGING BIOLOGY · HEALTHSPAN</em></article>
+        <article><span>02</span><h3>Institute for Computational Oncology</h3><p>Develop tumor-state models, early detection systems, and treatment-response simulations that allow oncology to become one of the twin’s deepest disease-specific validation environments.</p><em>CANCER · PRECISION THERAPY</em></article>
+        <article><span>03</span><h3>Institute for Brain Intelligence</h3><p>Integrate neurological, molecular, imaging, behavioral, and longitudinal signals so the twin can represent brain health and neurodegenerative trajectories with increasing fidelity.</p><em>NEURODEGENERATION · BRAIN SYSTEMS</em></article>
+        <article><span>04</span><h3>Institute for Autonomous Clinical Intelligence</h3><p>Translate twin outputs into transparent, clinician-directed recommendations while preserving human judgment, accountability, evidence review, and safety.</p><em>CLINICAL AI · HUMAN OVERSIGHT</em></article>
       </div>
     </section>
 
@@ -100,10 +104,10 @@ export default function Home(){
         <div><h2>Model the whole person.<br/><em>Reduce the biology of decline.</em></h2><p>Aging is one of the strongest risk factors for many chronic diseases. Metropolitan’s long-horizon research asks whether increasingly complete computational models of an individual can help identify, simulate, and eventually redirect the molecular processes that accumulate into disease and functional decline.</p></div>
       </div>
       <div className="research-tracks">
-        <article className="research-track">
+        <article className="research-track flagship-track">
           <span>01 / DIGITAL HUMAN</span>
           <h3>A living computational twin.</h3>
-          <p>The long-term objective is a patient-specific digital model that continuously integrates molecular measurements, imaging, physiology, clinical history, environment, behavior, and treatment response. Before an intervention reaches the patient, competing strategies could be explored computationally and evaluated against the individual’s changing biological state.</p>
+          <p>The flagship objective is a patient-specific digital model that continuously integrates molecular measurements, imaging, physiology, clinical history, environment, behavior, and treatment response. Rather than treating each disease as an isolated problem, the twin is designed to preserve a unified representation of the individual and test how interventions in one system may affect the rest of the body.</p>
           <ul><li>Longitudinal multimodal data</li><li>Mechanistic + learned biological models</li><li>Counterfactual treatment simulation</li><li>Continuous patient-specific updating</li></ul>
         </article>
         <article className="research-track">
