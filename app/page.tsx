@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import "./research.css";
 
 const years = [
   ["2026–28","Foundation","Acquire diagnostic, molecular-data, and clinical research platforms."],
@@ -57,6 +58,21 @@ export default function Home(){
       </div>
     </section>
 
+    <section className="moonshots" id="moonshots">
+      <div className="moonshot-head">
+        <p className="tag">25-YEAR / Moonshot portfolio</p>
+        <h2>Five institutes.<br/><em>Five problems worth a generation.</em></h2>
+        <p className="moonshot-intro">Beyond the ten-year operating horizon, Metropolitan’s research ambition is to organize durable scientific capability around problems that have resisted conventional medicine for decades—and where artificial intelligence, molecular measurement, simulation, and clinical science can compound together.</p>
+      </div>
+      <div className="institute-grid">
+        <article><span>01</span><h3>Institute for Healthy Longevity</h3><p>Study the mechanisms that drive biological aging, identify measurable pathways of decline, and pursue interventions that extend healthy function rather than merely prolonging life.</p><em>AGING BIOLOGY · HEALTHSPAN</em></article>
+        <article><span>02</span><h3>Institute for Computational Oncology</h3><p>Develop AI-guided systems for earlier cancer detection, mechanistic tumor modeling, treatment selection, and increasingly precise intervention.</p><em>CANCER · PRECISION THERAPY</em></article>
+        <article><span>03</span><h3>Institute for Brain Intelligence</h3><p>Unify neurological, molecular, imaging, behavioral, and longitudinal signals to pursue earlier understanding of Alzheimer’s, Parkinson’s, ALS, and psychiatric disease.</p><em>NEURODEGENERATION · BRAIN SYSTEMS</em></article>
+        <article><span>04</span><h3>Institute for Digital Human Modeling</h3><p>Build progressively richer patient-specific computational models capable of testing hypotheses, forecasting trajectories, and eventually simulating interventions before they reach the body.</p><em>DIGITAL TWINS · PREDICTIVE SIMULATION</em></article>
+        <article><span>05</span><h3>Institute for Autonomous Clinical Intelligence</h3><p>Develop clinician-directed AI systems that integrate multimodal evidence into transparent, evidence-based recommendations while preserving human judgment, accountability, and oversight.</p><em>CLINICAL AI · HUMAN OVERSIGHT</em></article>
+      </div>
+    </section>
+
     <section className="companies" id="companies">
       <div className="companies-head"><p className="tag">06 / The Metropolitan system</p><h2>Four companies.<br/>One compounding mission.</h2><p>Each Metropolitan company solves a different layer of the same problem: how to preserve truth, understand complexity, simulate possibility, and turn intelligence into better outcomes.</p></div>
       <div className="company-grid">
@@ -76,6 +92,32 @@ export default function Home(){
         <div><span>IN LIFE</span><h3>The body remains itself.</h3><p>Molecular understanding should help a biological process return to a non-harmful path—not replace the integrity of the living system.</p></div>
       </div>
       <blockquote>Understand the process faithfully enough to straighten its path without corrupting the system itself.</blockquote>
+    </section>
+
+    <section className="frontier-research" id="research-horizon">
+      <div className="frontier-head">
+        <p className="tag">25-YEAR / Research horizon</p>
+        <div><h2>Model the whole person.<br/><em>Reduce the biology of decline.</em></h2><p>Aging is one of the strongest risk factors for many chronic diseases. Metropolitan’s long-horizon research asks whether increasingly complete computational models of an individual can help identify, simulate, and eventually redirect the molecular processes that accumulate into disease and functional decline.</p></div>
+      </div>
+      <div className="research-tracks">
+        <article className="research-track">
+          <span>01 / DIGITAL HUMAN</span>
+          <h3>A living computational twin.</h3>
+          <p>The long-term objective is a patient-specific digital model that continuously integrates molecular measurements, imaging, physiology, clinical history, environment, behavior, and treatment response. Before an intervention reaches the patient, competing strategies could be explored computationally and evaluated against the individual’s changing biological state.</p>
+          <ul><li>Longitudinal multimodal data</li><li>Mechanistic + learned biological models</li><li>Counterfactual treatment simulation</li><li>Continuous patient-specific updating</li></ul>
+        </article>
+        <article className="research-track">
+          <span>02 / BIOLOGICAL AGE</span>
+          <h3>Slow the processes that make disease easier.</h3>
+          <p>Rather than treating age-associated conditions only after they appear, the research goal is to identify measurable drivers of biological aging and test whether selected processes can be slowed, stabilized, or—where science ultimately permits—partially reversed while preserving normal physiology.</p>
+          <ul><li>Cellular senescence and repair</li><li>Inflammatory and immune dysregulation</li><li>Epigenetic and metabolic change</li><li>Tissue resilience and regeneration</li></ul>
+        </article>
+      </div>
+      <div className="north-star">
+        <span>NORTH STAR</span>
+        <div><strong>A body that no longer<br/><em>turns against itself.</em></strong><p>The ultimate ambition is broader than any single disease: understand harmful biological processes deeply enough that cancerous growth, destructive immune activity, neurodegeneration, pathological inflammation, and other forms of internal biological damage can be predicted early and redirected toward stable, non-harmful function whenever medically possible.</p></div>
+      </div>
+      <p className="research-note">This is a long-term scientific research agenda, not a claim of present clinical capability. Progress depends on experimental validation, clinical evidence, safety, regulatory review, and disciplined human oversight.</p>
     </section>
 
     <section className="convergence">
